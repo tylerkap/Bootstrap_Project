@@ -1,13 +1,13 @@
 #content-container {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(99, 0, 170);
 }
 
 #background-image-container {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url(blake-connally-B3l0g6HLxr8-unsplash.jpg);
@@ -36,7 +36,7 @@
   border-radius: 30px;
   font-size: 25px;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 #background-image-container .overview-container {
   width: 80%;
@@ -50,6 +50,7 @@
   width: 33%;
   min-width: 200px;
   height: 100%;
+  margin-bottom: 20px;
 }
 #background-image-container .overview-item .overview-heading {
   width: 50%;
@@ -86,23 +87,50 @@
   }
   #background-image-container button {
     background-color: rgb(99, 0, 170);
+    margin-bottom: 10px;
     border: none;
     padding: 10px 20px;
     border-radius: 30px;
     font-size: 22px;
     font-weight: 600;
-    margin-bottom: 90px;
   }
   #background-image-container .overview-container {
     width: 100%;
     height: 150px;
-    background-color: darkslategray;
   }
   #background-image-container .overview-item {
     width: 100%;
     min-width: 200px;
-    height: 100%;
-    background-color: lightgreen;
-    border: 1px solid purple;
+    height: 60%;
+    margin: 10px;
+    border: none;
   }
+  #background-image-container .overview-item .overview-heading {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(182, 182, 182);
+  }
+  #background-image-container .overview-item .overview-heading h4 {
+    font-size: 18px;
+    color: rgb(214, 214, 214);
+  }
+  #background-image-container .overview-item h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  #background-image-container .overview-item span {
+    color: rgb(214, 214, 214);
+    font-size: 35px;
+  }
+}
+
+.nav-container {
+  width: 100%;
+  height: 100px;
+  background-color: gray;
 }/*# sourceMappingURL=base.css.map */
