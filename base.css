@@ -36,18 +36,40 @@
   border-radius: 30px;
   font-size: 25px;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 #background-image-container .overview-container {
   width: 80%;
-  height: 150px;
-  background-color: darkslategray;
+  height: 60px;
+}
+#background-image-container .border-style {
+  border-right: 1px solid rgb(182, 182, 182);
+  border-left: 1px solid rgb(182, 182, 182);
 }
 #background-image-container .overview-item {
   width: 33%;
   min-width: 200px;
   height: 100%;
-  background-color: lightgreen;
-  border: 1px solid purple;
+}
+#background-image-container .overview-item .overview-heading {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#background-image-container .overview-item .overview-heading h4 {
+  font-size: 18px;
+  color: rgb(214, 214, 214);
+}
+#background-image-container .overview-item h3 {
+  font-size: 23px;
+}
+#background-image-container .overview-item span {
+  color: rgb(214, 214, 214);
+  font-size: 35x;
+  padding-bottom: 3px;
 }
 @media (max-width: 575px) {
   #background-image-container h1 {
