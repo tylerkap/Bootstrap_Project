@@ -1,0 +1,42 @@
+#content-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(99, 0, 170);
+}
+
+#background-image-container {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(30, 30, 30, 0.5), rgba(30, 30, 30, 0.5)), url(blake-connally-B3l0g6HLxr8-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#background-image-container span {
+  color: rgb(99, 0, 170);
+}
+#background-image-container h1 {
+  font-size: 100px;
+  color: whitesmoke;
+}
+#background-image-container h2 {
+  font-size: 40px;
+  color: whitesmoke;
+}
+#background-image-container h3 {
+  font-size: 35px;
+  color: whitesmoke;
+}
+#background-image-container button {
+  background-color: rgb(99, 0, 170);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#overview {
+  width: 500px;
+  border: 1px solid black;
+}/*# sourceMappingURL=base.css.map */
